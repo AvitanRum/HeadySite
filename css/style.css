@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background-color:  #f7022a;
+}
+
+header {
+    background-color:  #f7022a;
+}
+
+footer {
+    background-color: #f7022a;
+    padding: 10px;
+}
+
+.about {
+    background-color: rgb(202, 194, 194);
+}
+
+.articles {
+    background-color:rgb(139, 129, 111);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-size: 30px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    text-align: center;
+    font-size: 30px;
+}
+
+hr {
+    color: black;
+    height: 5px;
+}
+
+dt {
+    font-size: 35px;
+    border: 30px;
+    border-color: rgb(202, 161, 72);
+}
+
+dd {
+    font-size: 25px;
+}
+
+dl {
+    margin-left: 20px;
+}
+
+.hedy {
+    display: block;
+    margin: 0 auto;
+    border: 10px rgb(73, 72, 71) solid;
+    border-radius: 25%;
+}
+
+.wifi {
+    display: block;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 19px;
+}
+
+p {
+    font-size: 28px;
+    margin-left: 15px; 
+}
+
+q {
+    font-size: 30px;
+    margin-left: 15px; 
+}
+
+ul {
+    font-size: 25px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+.wiki {
+    margin-left: 15px;
+    border:#000000 7px solid;
+    border-radius: 40%;
+    background-color: #cccccc;
+}
+
+a:hover{
+    color:rgb(43, 255, 0);
+}
+
+a:focus{
+    color:rgb(20, 48, 22)
+}
+
+.important::after {
+    content: "Важно!";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 75%;
+    background-color: rgb(255, 255, 255);
+}
+
+.important::before {
+    content: "Важно!";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: #000000 7px solid;
+    border-radius: 75%;
+    background-color: rgb(255, 255, 255);
+}
+
+.discharged {
+    line-height: 35px;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+}
+
+[lang="en"] {
+    color:#02f702;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.intro {
+    background-color: #57000e;
+    color: rgb(255, 255, 255);
+}
+
+table {
+    background-color: #949494;
+    margin-left: 12px;
+    border-collapse: collapse;
+    border: #000000 4px solid;
+}
+
+th, td {
+    margin-left: 4px;
+    margin-right: 4px;
+    font-size: 24px;
+    border: #000000 4px solid;
+    font-weight: 400;
+}
+
+.yellowRT {
+    background-color: yellow;
+}
+
+.greenRT {
+    background-color: green;
+}
+
+#contact-form input[type="text"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color:rgb(255, 255, 255);
+}
+
+#contact-form input[type="submit"] {
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color:rgb(108, 132, 153);
+    font-size: 30px;
+}
+
+#contact-form input[type="submit"] {
+    height: 50px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color:rgb(108, 132, 153);
+    font-size: 30px;
+}
+
+label {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+textarea {
+    height: 76px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color:rgb(255, 255, 255);
+}
+
+select {
+    height: 30px;
+    width: 265px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color:rgb(255, 255, 255);
+}
+
+#contact-form input[type="submit"]:hover {
+    color: rgb(108, 132, 153);
+    background: #242746;
+    transition: 1s;
+}
+
+form {
+    border: 8px solid rgb(27, 27, 27);
+    border-radius: 20%;
+    background-color: rgba(134, 134, 134, 0.37);
+    margin-left: 750px;
+    margin-right: 750px;
+}
+
+#contact-form input[type="email"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color:rgb(255, 255, 255);
+}    
+
+#contact-form input[type="date"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color:rgb(255, 255, 255);
+}    
+
+#contact-form input[type="tel"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color:rgb(255, 255, 255);
+}   
+
+#contact-form input[type="checkbox"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+} 
+
+.dannie {
+    font-size: 18px;
+}

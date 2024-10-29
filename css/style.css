@@ -113,6 +113,12 @@ p {
     margin-left: 15px; 
 }
 
+p::first-line {
+    letter-spacing: 4px;
+    line-height: 1.35;
+    font-size: 28px;
+}
+
 q {
     font-size: 30px;
     margin-left: 15px; 
@@ -160,12 +166,6 @@ a:focus{
     background-color: rgb(255, 255, 255);
 }
 
-.discharged {
-    line-height: 35px;
-    word-spacing: 15px;
-    letter-spacing: 4px;
-}
-
 [lang="en"] {
     color:#02f702;
     -webkit-text-stroke: 1px #000000;
@@ -189,14 +189,6 @@ th, td {
     font-size: 24px;
     border: #000000 4px solid;
     font-weight: 400;
-}
-
-.yellowRT {
-    background-color: yellow;
-}
-
-.greenRT {
-    background-color: green;
 }
 
 #contact-form input[type="text"] {
@@ -261,8 +253,6 @@ form {
     border: 8px solid rgb(27, 27, 27);
     border-radius: 20%;
     background-color: rgba(134, 134, 134, 0.37);
-    margin-left: 750px;
-    margin-right: 750px;
 }
 
 #contact-form input[type="email"] {
@@ -301,4 +291,16 @@ form {
 
 .dannie {
     font-size: 18px;
+}
+
+tr:last-child {
+    background: #09ff00
+}
+
+th:nth-last-child(-n+4) {
+    background-color: #949494;
+}
+
+th:first-child, td:first-child {
+    background-color: #e5ff00;
 }
